@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Markdown To Any</title>
+  </head>
+  <body>
+    <h1>Convert Markdown to PDFs/HTML/MSWord</h1>
+    <form action="" method="POST">
+      <label for="fileName"><strong>File Name:</strong></label>
+      <input type="text" name="fileName" id="fileName" size="10" />
+      <div>
+        <label for="markdown">Markdown:</label>
+      </div>
+      <textarea name="text" id="markdown" cols="30" rows="10">
+Type here...</textarea
+      >
+      <div>
+        <label for="conversion">Choose your format:</label>
+      </div>
+      <select name="" id="conversion">
+        <option value="">--Please choose an option--</option>
+        <option value="PDF">PDF</option>
+        <option value="HTML">HTML</option>
+        <option value="DOCX">DOCX</option>
+      </select>
+      <button>Convert!!!</button>
+    </form>
+  </body>
+</html>
